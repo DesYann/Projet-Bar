@@ -1,0 +1,10 @@
+npm install nodemon --save-dev
+modifier script dans package.json -> "scripts": {
+    "start": "nodemon app.js",
+    "test": "node app.js"
+  }
+  npm start -> démarre maintenant nodemon et met à jour à chaque sauvegarde
+npm install body-parser cors express mysql2 sequelize --save
+
+lancer le programme avec npm start creer barv1 dans phpMyAdmin après importer barv1.sql (dans ./db)
+
