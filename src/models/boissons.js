@@ -68,7 +68,12 @@ module.exports = (sequelize, DataTypes) => {
       dispo: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-      }
+      },
+      description: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+        defaultValue: "Lorem ipsum dolor sit amet, consectetur",
+      },
     },
 
     {
